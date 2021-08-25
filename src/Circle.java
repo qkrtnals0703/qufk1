@@ -11,7 +11,8 @@ public class Circle {
     }
 
     public double getArea(){
-        return 3.14 * radius * radius;
+
+       return 3.14*radius*radius;
     }
 
     public static void main(String[] args){
@@ -22,6 +23,6 @@ public class Circle {
         Circle donut = new Circle();
         donut.name = "도넛피자";
         area = donut.getArea();
-        System.out.println(donut.name + "의 면적은 " +area);
+        System.out.println(donut.name + "의 면적은 " + area);
     }
 }
